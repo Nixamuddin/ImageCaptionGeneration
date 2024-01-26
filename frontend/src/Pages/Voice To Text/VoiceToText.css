@@ -1,0 +1,90 @@
+
+.box{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(91,91,230,1) 7%, rgba(112,88,214,1) 11%, rgba(137,85,194,1) 17%, rgba(156,83,180,1) 27%, rgba(169,81,170,1) 58%, rgba(182,79,160,1) 78%, rgba(149,113,210,1) 100%, rgba(252,70,107,1) 100%);
+    height: 90vh;
+    border-radius: 20px;
+    margin-top: 0%;
+}
+.topcontainer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 70vh;
+    padding: 20px;
+}
+.texttop{
+margin-top: 10px;
+}
+.topcontainer .selections{
+    display: flex;
+ justify-content: center;
+    text-align: center;
+}
+.recordingbtn{
+    width: 500px;
+    font-weight: 700;
+    font-size: large;
+    box-shadow: none;
+    outline: none;
+}
+
+.language{
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 310px;
+
+}
+.result{
+    border: 1px solid lightgrey;
+    height: 40vh;
+    width: 700px;
+    margin-left:196px ;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.buttonss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+    .download {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 5px 30px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+      
+      
+      .download:hover {
+        background-color: RoyalBlue;
+      }
+      .clear{
+        background-color: rgb(123, 4, 4);
+        border: none;
+        color: white;
+        padding: 5px 30px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+      
+      
+      .clear:hover {
+        background-color: rgb(37, 1, 1);
+      }

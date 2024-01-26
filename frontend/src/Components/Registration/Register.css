@@ -1,0 +1,48 @@
+.register-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.register-container .container{
+    background-color: #FFFFF4;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  
+}
+.container .register-mage{
+    width: 500px;
+    height: 500px;
+    border-right: 1px solid whitesmoke;
+
+}
+.container .register-form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 60px;
+  
+}
+.register-container .titles{
+   padding-top: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.register-form .register-btn{
+    background-color: indianred;
+  display: flex;
+  flex: start;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFF4;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 50px;
+  outline: none;
+  border: none;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

@@ -1,0 +1,73 @@
+.diar-containter{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.diar-containter img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+
+.left-sides{
+   
+    width: 300px;
+    font-weight: 700;
+    margin-top: 10px;
+background-attachment: fixed;    
+}
+.btn-dark{
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 10px;
+    width: 200px;
+    margin-left: 10px;
+}
+.right-sides{
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 40px;
+}
+.card{
+    height: 50vh;
+}
+.card img{
+    height: 500px;
+    width: 100%;
+}
+ .card p{
+   font-size: small;
+   font-weight: 400;
+   text-align: left;
+   font-style: italic;
+}
+.card h5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.card .time{
+    color: grey;
+    padding-top: 20px;
+    text-align: end;
+}
+.card .view{
+display: inline;
+float:right;
+justify-content: center;
+box-shadow: none;
+width: 100%;
+color: white;
+font-weight: 700;
+
+}
+.cardbtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
